@@ -38,9 +38,8 @@ end
 
 
 
-
-def sum_array(sum)
-  (5..10).inject {|sum, n| sum + n }
+def sum_array(integers)
+  integers.inject {|sum, n| sum + n }
 
 end
 
