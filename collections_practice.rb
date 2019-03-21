@@ -31,6 +31,13 @@ def kesha_maker (array)
  end
 end
 
+# Same using a block and inject
+(5..10).inject {|sum, n| sum + n }
+
+def sum_array(array)
+  (5..10).inject {|sum, n| sum + n }
+sum
+end
 
 
 
