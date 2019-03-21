@@ -23,15 +23,13 @@ def reverse_array(array)
   array.reverse!
 end
 
-def kesha_maker(new_array)
-  new_array = []
-  array.each do |x|
-new_word = x.delete(x[2]).insert(2,$)
-new_array << new_word
-end
-new_array
-end
+def kesha_maker (array)
 
+ array.collect do |element|
+   element[2] = "$"
+   element
+ end
+end
 
 
 
