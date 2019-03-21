@@ -32,20 +32,19 @@ def kesha_maker (array)
 end
 
 
-def sum_array(sum)
-  (5..10).inject {|sum, n| sum + n }
-
-end
-
-
 def find_a(array)
   array.find { |x| "a".include? }
   array
 end
 
+def sum_array(sum)
+  (5..10).inject {|sum, n| sum + n }
 
+end
 
-
+def add_s
+  
+end
 
 
 
